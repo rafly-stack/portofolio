@@ -1,0 +1,67 @@
+header {
+            background-color: cadetblue;
+        }
+        .judul {
+            text-align: center;
+        }
+        .navbar {
+            text-align: center;
+        }
+        main {
+            display: flex;
+            background-color: cornflowerblue;
+        }
+        .sideBar {
+            width: 35%;
+            padding: 1em;
+            background-color: rgb(126, 200, 200);
+        }
+        .sideBarTitle {
+            text-align: center;
+        }
+        .sideBarList {
+            list-style-type: none;
+            padding: 0%;
+        }
+        .content  {
+            width: 65%;
+            padding: 1em;
+            background-color: rgb(80, 194, 198);
+        }
+        .contentTitle {
+            text-align: center;
+        }
+        .detailHeading {
+            margin-left: 1em;
+        }
+        .contentFormat {
+            text-align: center;
+        }
+        .contentTabel {
+            text-align: center;
+        }
+        details {
+            margin-left: 1em;
+            margin-bottom: 1em;
+        }
+        .detailHeading h1, .detailHeading h2, .detailHeading h3, .detailHeading h4, .detailHeading h5, .detailHeading h6 {
+            text-align: justify;
+            color: brown;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+        }
+        .detailGambar img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+            border: 3px solid white;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            background-color: cadetblue;
+            padding: 2em;
+        }

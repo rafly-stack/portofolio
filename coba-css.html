@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Internal - Tugas Rafli</title>
+    <link rel="stylesheet" href="css-1/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="judul">Membuat Css</h1>
+        <nav class="navbar">
+            <a href="#padding">Heading</a> | 
+            <a href="#List">List</a> | 
+            <a href="#Gambar">Gambar</a> | 
+            <a href="#Tabel">Tabel</a> | 
+            <a href="#Format">Teks Format</a></nav>
+    </header>
+    <hr>
+    <main>
+        <aside class="sideBar">
+            <h3 class="sideBarTitle">Side bar</h3>
+            <ul class="sideBarList">
+                <li><a href="#padding">• Menu Heading</a></li>
+                <li><a href="#List">• Menu List</a></li>
+                <li><a href="#Gambar">• Menu Gambar</a></li>
+                <li><a href="#Tabel">• Menu Tabel</a></li>
+                <li><a href="#Format">• Menu Teks Format</a></li>
+            </ul>
+        </aside>
+        <div class="content">
+            <section id="padding">
+                <h2 class="contentTitle">Heading</h2>
+                <details class="detailHeading">
+                    <summary>Klik untuk melihat Heading</summary>
+                        <h1>Ini heading 1</h1>
+                        <h2>Ini heading 2</h2>
+                        <h3>Ini heading 3</h3>
+                        <h4>Ini heading 4</h4>
+                        <h5>Ini heading 5</h5>
+                        <h6>Ini heading 6</h6>
+                </details>
+            </section>
+
+            <section id="List">
+                <h2 class="contentTitle">List</h2>
+                <details class="detailList">
+                    <summary>Klik untuk melihat List</summary>
+                        <p><strong>Ordered List</strong></p>
+                        <ol type="I">
+                            <li>satu</li>
+                            <li>dua</li>
+                            <li>tiga</li>
+                        </ol>
+
+                        <p><strong>Unordered List</strong></p>
+                        <ul type="square">
+                            <li>satu</li>
+                            <li>dua</li>
+                            <li>tiga</li>
+                        </ul>
+
+                        <hr>
+                        <p><strong>Nama Burung & Ikan</strong></p>
+                        <ol>
+                            <li>Nama Burung</li>
+                            <ol type="1">
+                                <li>Dara</li>
+                                <li>Gereja</li>
+                            </ol>
+                            <li>Nama Ikan</li>
+                            <ol type="1">
+                                <li>Patin</li>
+                                <li>Lele</li>
+                            </ol>
+                        </ol>
+                </details>
+            </section>
+
+            <section id="Gambar">
+                <h2 class="contentTitle">Gambar</h2>
+                <details class="detailGambar">
+                    <summary>Klik untuk melihat Gambar</summary>
+                    <img src="/praktek kursus/img/hiu.jfif" alt="Gambar Tugas Web"> 
+                </details>
+            </section>
+
+            <section id="Tabel">
+                <h2 class="contentTabel">Tabel</h2>
+                <details class="detailTabel">
+                    <summary>Klik untuk melihat Tabel</summary>
+                        <h1>Tabel</h1>
+                        <table border="1" cellpadding="10" cellspacing="1">
+                            <tr>
+                                <td rowspan="2">baris satu</td>
+                                <td>baris dua</td>
+                                <td>baris 3</td>
+                            </tr>
+                            <tr>
+                                <td>kolom satu</td>
+                                <td>kolom dua</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td colspan="2">2</td>
+                            </tr>
+                        </table>
+                </details>
+            </section>
+
+            <section id="Format">
+                <h2 class="contentFormat">Teks Format</h2>
+                <details class="detailFormat">
+                    <summary>Klik untuk melihat Teks Format</summary>
+                        <p>ini teks <b>bold</b> dan ini teks <strong>strong</strong></p>
+                        <p>ini teks <i>italic</i> dan ini teks <em>emphasis</em></p>
+                        <p>ini teks <u>underline</u> dan ini teks <ins>insert</ins></p>
+                        <p>ini teks <s>strikethrough</s> dan ini teks <del>delete</del></p>
+                        <p>ini teks <sub>pangkat bawah</sub> dan ini teks <sup>pangkat atas</sup></p>
+                        <p>Ini adalah sebuah paragraf dengan berbagai gaya teks. <b>Ini teks tebal,</b>
+                        <i>ini teks miring</i>, <u>ini teks yang di bawah ada garis</u>, <s>ini teks yang dicoret</s>
+                        , <sup>ini pangkat atas</sup>dan <sub>ini pangkat bawah</sub></p>
+                </details>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 Muh Rafli.</p>
+    </footer>
+</body>
+</html>

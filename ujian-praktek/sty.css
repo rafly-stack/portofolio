@@ -1,0 +1,109 @@
+/* 1. Pengaturan Dasar / Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* 2. Navigasi (Flexbox Dasar) */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cd6464;
+    padding: 15px 5%;
+    color: #ffffff;
+}
+
+.navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Efek hover standar (hanya ganti warna, tanpa transisi lambat) */
+.nav-links a:hover {
+    color: #b2e44e;
+}
+
+/* 3. Banner Utama (Hero) */
+.hero {
+    background-color: #370bb0;
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.section-photo {
+    display: flex;
+    justify-content: center;
+}
+
+/* 4. Pengaturan Section Umum */
+.section-box {
+    padding: 40px 10%;
+    text-align: center;
+    background-color: #ffffff;
+    margin-bottom: 10px; /* Memberi jarak antar kotak section */
+}
+
+.section-box h2 {
+    margin-bottom: 20px;
+    color: #e44545;
+}
+
+/* 5. Tata Letak Projek (Flexbox / Grid Sederhana) */
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Supaya kalau layar kecil, kotak otomatis turun */
+}
+
+.project-card {
+    background-color: #f9f9f9;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    width: 280px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.project-card h3 {
+    color: #00adb5;
+    margin-bottom: 10px;
+}
+
+/* 6. Footer */
+footer {
+    background-color: #cd6464;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
